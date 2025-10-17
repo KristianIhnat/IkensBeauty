@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Holgada';
+  src: url('https://db.onlinewebfonts.com/t/2d98f490df6dc039774b101701ce3aba.eot');
+  src: url('https://db.onlinewebfonts.com/t/2d98f490df6dc039774b101701ce3aba.eot?#iefix') format('embedded-opentype'),
+       url('https://db.onlinewebfonts.com/t/2d98f490df6dc039774b101701ce3aba.woff2') format('woff2'),
+       url('https://db.onlinewebfonts.com/t/2d98f490df6dc039774b101701ce3aba.woff') format('woff'),
+       url('https://db.onlinewebfonts.com/t/2d98f490df6dc039774b101701ce3aba.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  min-height: 100vh;
+  background-color: #f3e5ab;
+  background-image: linear-gradient(to bottom, #f9f3d9, #f3e5ab);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Holgada', sans-serif;
+  }
+}
