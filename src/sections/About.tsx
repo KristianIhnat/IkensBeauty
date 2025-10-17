@@ -9,13 +9,6 @@ const team = [
     image: '/images/Erika.jpg'
   },
   {
-    id: '2',
-    name: 'Alexandra',
-    role: 'Nechtová dizajnérka',
-    bio: 'Ahojte! 🌼 Volám sa Alexandra. Vždy usmiata a pozitívne naladená. Snažím sa, aby tak odo mňa odchádzala aj každá z vás. 🍀 Vďaka zdravotníckemu vzdelaniu kladiem dôraz na precíznu a bezpečnú manikúru. 💅\nČo pre mňa znamená ženskosť v nechtovom dizajne? Jednoduchosť a elegancia. Krásne upravené nechty vás dokážu naplniť nielen radosťou, ale aj sebavedomím.  Nečakajte na zvláštnu príležitosť – každý deň je dôvod cítiť sa krásne! 🥰',
-    image: '/images/Alexandra.jpg'
-  },
-  {
     id: '3',
     name: 'Annamária',
     role: 'Nechtová dizajnérka',
