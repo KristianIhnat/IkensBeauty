@@ -19,7 +19,7 @@ export default function Contact() {
             </h3>
             <div className="space-y-6">
               <div className="flex items-start">
-                <MapPin className="w-6 h-6 text-pink-600 mt-1 mr-4 flex-shrink-0" />
+                <MapPin className="w-6 h-6 text-amber-800 mt-1 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium text-gray-900">Adresa</h4>
                   <p className="text-gray-600">
@@ -29,14 +29,14 @@ export default function Contact() {
                 </div>
               </div>
               <div className="flex items-start">
-                <Phone className="w-6 h-6 text-pink-600 mt-1 mr-4 flex-shrink-0" />
+                <Phone className="w-6 h-6 text-amber-800 mt-1 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium text-gray-900">Telefón</h4>
                   <p className="text-gray-600">0902 543 279</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <Clock className="w-6 h-6 text-pink-600 mt-1 mr-4 flex-shrink-0" />
+                <Clock className="w-6 h-6 text-amber-800 mt-1 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium text-gray-900">Otváracie hodiny</h4>
                   <p className="text-gray-600">Na objednávku</p>

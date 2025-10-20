@@ -54,7 +54,7 @@ export default function About() {
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
                     {member.name}
                   </h4>
-                  <p className="text-pink-600 mb-4">{member.role}</p>
+                  <p className="text-amber-800 mb-4">{member.role}</p>
                   <p className="text-gray-600 whitespace-pre-line">{member.bio}</p>
                 </div>
               </div>
