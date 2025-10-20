@@ -59,6 +59,15 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        {/* Logo v pravom dolnom rohu */}
+        <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
+          <img
+            src="/images/IKENS.svg"
+            alt="IKENS Beauty"
+            className="w-32 md:w-48 opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
       </div>
     </section>
   );
