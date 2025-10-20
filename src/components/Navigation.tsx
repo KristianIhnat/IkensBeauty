@@ -46,7 +46,7 @@ export default function Navigation({ mobile, setIsOpen }: NavigationProps) {
             mobile
               ? 'block px-6 py-3 rounded-md text-2xl font-medium text-center'
               : 'text-sm font-medium'
-          } text-gray-700 hover:text-pink-500`}
+          } text-gray-700 hover:text-amber-800`}
         >
           {link.label}
         </a>
@@ -59,7 +59,7 @@ export default function Navigation({ mobile, setIsOpen }: NavigationProps) {
           mobile
             ? 'px-6 py-3 rounded-md text-2xl font-medium'
             : 'text-sm font-medium'
-        } text-gray-700 hover:text-pink-500`}
+        } text-gray-700 hover:text-amber-800`}
       >
         <Instagram className={`${mobile ? 'w-8 h-8' : 'w-5 h-5'} mr-2`} />
         <span>Instagram</span>
