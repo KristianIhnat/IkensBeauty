@@ -33,7 +33,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen">
       <header
         className={`fixed w-full z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+          isScrolled ? 'bg-white/90 shadow-md' : 'bg-transparent'
         }`}
       >
         <div className="container mx-auto px-4">
