@@ -7,7 +7,7 @@ const team = [
     role: 'Nechtová dizajnérka, Vizážistka',
     bio: 'Ahojte, volám sa Erika,\nManikúre sa venujem už 10 rokov, je to moja vášeň, ktorá sa postupne stala aj súčasťou môjho života. Salón Ikens beauty je dnes domovom nielen pre krásne nechty, ale aj pre úžasný tím kolegýň, ktoré zdieľajú moju víziu.\nVeríme, že krása je v detailoch, jednoduchosti a v tom, ako sa žena cíti. Našou prioritou je, aby ste od nás odchádzali nielen s dokonalými nechtami, ale aj s pocitom, že ste si dopriali chvíľu pre seba.\nVaša dôvera je pre nás najväčšou motiváciou. Teším sa na každé naše stretnutie – či už u mňa, alebo u dievčat z tímu Ikens Beauty.🤍',
     image: '/images/Erika.jpg',
-    objectPosition: 'center 40%' // individuálny posun
+    objectPosition: 'center 30%' // individuálny posun
   },
   {
     id: '3',
@@ -15,7 +15,7 @@ const team = [
     role: 'Nechtová dizajnérka',
     bio: 'Volám sa Annamaria, pochádzam z krásneho Liptovského Mikuláša. 🙂\nNechtovému dizajnu sa venujem už štyri roky – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom.💅🏻\nKreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty!💅🏻',
     image: '/images/AnnaMaria.jpg',
-    objectPosition: 'center 35%' // individuálny posun
+    objectPosition: 'center 50%' // individuálny posun
   },
   {
     id: '4',
