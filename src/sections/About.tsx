@@ -43,19 +43,23 @@ export default function About() {
             {team.map((member) => (
               <div
                 key={member.id}
-                className="bg-white/90 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                className="bg-white/90 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 flex flex-col"
               >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6">
+                {/* Responsívny obrázok s rôznymi pomermi strán podľa veľkosti obrazovky */}
+                <div className="w-full overflow-hidden aspect-[4/3] md:aspect-[3/2] lg:aspect-[4/3]">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div className="p-6 flex-1 flex flex-col">
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
                     {member.name}
                   </h4>
                   <p className="text-amber-800 mb-4">{member.role}</p>
-                  <p className="text-gray-600 whitespace-pre-line">{member.bio}</p>
+                  <p className="text-gray-600 whitespace-pre-line mt-auto">{member.bio}</p>
                 </div>
               </div>
             ))}
