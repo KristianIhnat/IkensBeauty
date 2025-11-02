@@ -45,7 +45,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 className="cursor-pointer hover:opacity-80 transition-opacity duration-200"
               >
                 <img 
-                  src="images/logo.svg" 
+                  src="public/images/logo.svg" 
                   alt="Ikens Beauty" 
                   className="h-20 w-auto"
                   style={{ maxWidth: '240px' }}
