@@ -45,12 +45,12 @@ export default function About() {
                 key={member.id}
                 className="bg-white/90 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 flex flex-col"
               >
-                {/* Responsívny obrázok s rôznymi pomermi strán podľa veľkosti obrazovky */}
+                {/* Obrázok s posunom hore a responsívnym pomerom strán */}
                 <div className="w-full overflow-hidden aspect-[4/3] md:aspect-[3/2] lg:aspect-[4/3]">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
 
