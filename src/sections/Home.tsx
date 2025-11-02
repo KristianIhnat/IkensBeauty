@@ -29,7 +29,7 @@ export default function Home() {
         {/* pt-[25vh] = posunie obsah o 25% výšky obrazovky nadol */}
 
         <img
-          src="/images/IKENS.svg"
+          src="/images/IKENS_MIDDLE.svg"
           alt="Ikens Beauty logo"
           className="w-80 md:w-[500px] object-contain"
         />
