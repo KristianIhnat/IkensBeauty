@@ -18,7 +18,7 @@ export default function Home() {
       {/* 🔹 Logo v pravom dolnom rohu */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 z-30">
         <img
-          src="/images/IKENS copy copy.svg"
+          src="/images/IKENS.svg"
           alt="IKENS Beauty"
           className="w-48 md:w-72 opacity-80 hover:opacity-100 transition-opacity duration-300"
         />
@@ -29,7 +29,7 @@ export default function Home() {
         {/* pt-[25vh] = posunie obsah o 25% výšky obrazovky nadol */}
 
         <img
-          src="/images/IKENS copy.svg"
+          src="/images/IKENS.svg"
           alt="Ikens Beauty logo"
           className="w-80 md:w-[500px] object-contain"
         />
