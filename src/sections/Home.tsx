@@ -28,12 +28,6 @@ export default function Home() {
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-white text-center px-4 pt-[25vh]">
         {/* pt-[25vh] = posunie obsah o 25% výšky obrazovky nadol */}
 
-        <img
-          src="/images/IKENS_MIDDLE.png"
-          alt="Ikens Beauty logo"
-          className="w-80 md:w-[500px] object-contain"
-        />
-
         <div className="h-16" />
 
         <a
