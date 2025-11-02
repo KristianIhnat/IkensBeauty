@@ -59,7 +59,7 @@ export default function Navigation({ mobile, setIsOpen }: NavigationProps) {
           mobile
             ? 'px-6 py-3 rounded-md text-2xl font-medium'
             : 'text-sm font-medium'
-        } text-gray-700 hover:text-amber-800`}
+        } text-gray-700 hover:text-[#E1306C]`}
       >
         <Instagram className={`${mobile ? 'w-8 h-8' : 'w-5 h-5'} mr-2`} />
         <span>Instagram</span>
