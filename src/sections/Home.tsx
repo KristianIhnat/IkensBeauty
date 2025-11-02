@@ -25,7 +25,8 @@ export default function Home() {
       </div>
 
       {/* 🔹 Obsah nad videom */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-white text-center px-4 pt-[25vh]">
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
+        {/* Tlačidlo umiestnené pevne dole */}
         <a
           href="#contact"
           onClick={(e) => {
@@ -43,7 +44,7 @@ export default function Home() {
               });
             }
           }}
-          className="bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
+          className="absolute bottom-[10%] bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
         >
           Rezervovať termín
         </a>
