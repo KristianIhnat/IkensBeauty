@@ -17,6 +17,7 @@ export default function App() {
           <About />
           <Services />
           <Contact />
+          <BookingForm />
         </div>
       </Layout>
     </div>
