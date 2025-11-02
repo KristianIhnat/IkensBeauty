@@ -8,6 +8,15 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
       </div>
 
+      {/* 🔹 Logo v pravom dolnom rohu */}
+      <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 z-30">
+        <img
+          src="/images/IKENS copy copy.svg"
+          alt="IKENS Beauty"
+          className="w-48 md:w-72 opacity-80 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-black text-center px-4">
         <div className="relative flex flex-col items-center">
           <img
