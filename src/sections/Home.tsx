@@ -8,21 +8,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
       </div>
 
-      {/* 🔹 Obsah nad videom */}
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-black text-center px-4">
-        {/* 🔹 Text hore */}
-        <h1 className="text-4xl md:text-4xl font-bold mb-0 leading-none">
-          Vitajte v
-        </h1>
-
-        {/* 🔹 Logo pod textom – bez prázdneho priestoru */}
         <img
-          src="/logo.svg"
+          src="/images/IKENS copy.svg"
           alt="Ikens Beauty logo"
-          className="w-64 md:w-80 object-contain -my-8"
+          className="w-80 md:w-[500px] object-contain mb-8"
         />
 
-        {/* 🔹 Tlačidlo */}
         <a
           href="#contact"
           onClick={(e) => {
@@ -44,15 +36,6 @@ export default function Home() {
         >
           Rezervovať termín
         </a>
-
-        {/* 🔹 Logo v pravom dolnom rohu */}
-        <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
-          <img
-            src="/images/IKENS.svg"
-            alt="IKENS Beauty"
-            className="w-48 md:w-72 opacity-80 hover:opacity-100 transition-opacity duration-300"
-          />
-        </div>
       </div>
     </section>
   );
