@@ -44,7 +44,7 @@ export default function Home() {
               });
             }
           }}
-          className="absolute bottom-[20%] bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
+          className="absolute bottom-[30%] bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
         >
           Rezervovať termín
         </a>
