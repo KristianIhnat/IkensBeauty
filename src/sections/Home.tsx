@@ -9,7 +9,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-black text-center px-4">
-        <div className="flex flex-col items-center">
+        <div className="relative flex flex-col items-center">
           <img
             src="/images/IKENS copy.svg"
             alt="Ikens Beauty logo"
@@ -33,7 +33,7 @@ export default function Home() {
                 });
               }
             }}
-            className="bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
+            className="relative -mt-12 bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
           >
             Rezervovať termín
           </a>
