@@ -47,8 +47,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                <img 
                 src="images/logo.svg" 
                 alt="Ikens Beauty" 
-                className="h-28 w-auto"   // väčšia výška
-                style={{ maxWidth: '420px' }} // väčšia maximálna šírka
+                className="h-28 w-auto"   
+                style={{ maxWidth: '420px' }} 
               />
               </a>
             </div>
