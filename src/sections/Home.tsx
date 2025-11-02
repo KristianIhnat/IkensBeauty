@@ -18,7 +18,7 @@ export default function Home() {
       {/* 🔹 Logo v pravom dolnom rohu */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 z-30">
         <img
-          src="/images/MBZ.svg"
+          src="/images/logo.svg"
           alt="IKENS Beauty"
           className="w-62 md:w-82 opacity-80 hover:opacity-100 transition-opacity duration-300"
         />
