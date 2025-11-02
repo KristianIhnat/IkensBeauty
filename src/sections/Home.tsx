@@ -27,11 +27,7 @@ export default function Home() {
       {/* 🔹 Obsah nad videom */}
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
         <div className="relative flex flex-col items-center">
-          <img
-            src="/images/IKENS copy.svg"
-            alt="Ikens Beauty logo"
-            className="w-80 md:w-[500px] object-contain"
-          />
+      
 
           <a
             href="#contact"
