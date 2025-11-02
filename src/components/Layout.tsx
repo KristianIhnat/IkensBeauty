@@ -48,7 +48,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   src="images/logo.svg" 
                   alt="Ikens Beauty" 
                   className="h-20 w-auto"
-                  style={{ maxWidth: '240px' }}
+                  style={{ maxWidth: '360px' }}
                 />
               </a>
             </div>
