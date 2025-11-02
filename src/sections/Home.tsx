@@ -27,6 +27,17 @@ export default function Home() {
       {/* 🔹 Obsah nad videom */}
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
         <div className="relative flex flex-col items-center">
+          {/* Logo hore */}
+          <img
+            src="/images/IKENS copy.svg"
+            alt="Ikens Beauty logo"
+            className="w-80 md:w-[500px] object-contain"
+          />
+
+          {/* 🔹 Spacer – posunie tlačidlo nižšie */}
+          <div className="h-20 md:h-32" />
+
+          {/* 🔹 Tlačidlo */}
           <a
             href="#contact"
             onClick={(e) => {
@@ -44,7 +55,7 @@ export default function Home() {
                 });
               }
             }}
-            className="relative mt-12 bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
+            className="bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
           >
             Rezervovať termín
           </a>
