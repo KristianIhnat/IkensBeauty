@@ -7,6 +7,8 @@ const team = [
     role: 'Nechtová dizajnérka, Vizážistka',
     bio: 'Ahojte, volám sa Erika,\nManikúre sa venujem už 10 rokov, je to moja vášeň, ktorá sa postupne stala aj súčasťou môjho života. Salón Ikens beauty je dnes domovom nielen pre krásne nechty, ale aj pre úžasný tím kolegýň, ktoré zdieľajú moju víziu.\nVeríme, že krása je v detailoch, jednoduchosti a v tom, ako sa žena cíti. Našou prioritou je, aby ste od nás odchádzali nielen s dokonalými nechtami, ale aj s pocitom, že ste si dopriali chvíľu pre seba.\nVaša dôvera je pre nás najväčšou motiváciou. Teším sa na každé naše stretnutie – či už u mňa, alebo u dievčat z tímu Ikens Beauty.🤍',
     image: '/images/Erika.jpg'
+        objectPosition: 'center 40%' // posun pre Eriku
+
   },
   {
     id: '3',
