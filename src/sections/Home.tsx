@@ -20,7 +20,7 @@ export default function Home() {
         <img
           src="/images/MBZ.svg"
           alt="IKENS Beauty"
-          className="w-62 md:w-82 opacity-80 hover:opacity-100 transition-opacity duration-300"
+          className="w-80 md:w-96 opacity-80 hover:opacity-100 transition-opacity duration-300"
         />
       </div>    
     </section>
