@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from './components/Layout';
+import BookingForm from './components/BookingForm';
 import Home from './sections/Home';
 import About from './sections/About';
 import Services from './sections/Services';
