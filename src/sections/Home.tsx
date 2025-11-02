@@ -3,9 +3,16 @@ import React from 'react';
 export default function Home() {
   return (
     <section id="home" className="relative min-h-screen">
-      {/* 🔹 Pozadie a overlay */}
+      {/* 🔹 Pozadie s videom */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-50 z-10" />
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/videos/finalSirka.mp4" // umiestni video do /public/videos/
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
       </div>
 
       {/* 🔹 Logo v pravom dolnom rohu */}
@@ -17,7 +24,8 @@ export default function Home() {
         />
       </div>
 
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-black text-center px-4">
+      {/* 🔹 Obsah nad videom */}
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
         <div className="relative flex flex-col items-center">
           <img
             src="/images/IKENS copy.svg"
