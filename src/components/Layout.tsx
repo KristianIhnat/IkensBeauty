@@ -45,11 +45,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 className="cursor-pointer hover:opacity-80 transition-opacity duration-200"
               >
                <img 
-  src="images/logo.svg" 
-  alt="Ikens Beauty" 
-  className="h-28 w-auto"   // väčšia výška
-  style={{ maxWidth: '420px' }} // väčšia maximálna šírka
-/>
+                src="images/logo.svg" 
+                alt="Ikens Beauty" 
+                className="h-28 w-auto"   // väčšia výška
+                style={{ maxWidth: '420px' }} // väčšia maximálna šírka
+              />
               </a>
             </div>
             
