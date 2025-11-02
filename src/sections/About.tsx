@@ -50,7 +50,7 @@ export default function About() {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-[center_30%]"
                   />
                 </div>
 
