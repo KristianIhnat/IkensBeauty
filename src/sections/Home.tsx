@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="/videos/finalSirka.mp4" // umiestni video do /public/videos/
+          src="/videos/finalSirka.mp4"
           autoPlay
           loop
           muted
@@ -25,41 +25,38 @@ export default function Home() {
       </div>
 
       {/* 🔹 Obsah nad videom */}
-      <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-white text-center px-4">
-        <div className="relative flex flex-col items-center">
-          {/* Logo hore */}
-          <img
-            src="/images/IKENS copy.svg"
-            alt="Ikens Beauty logo"
-            className="w-80 md:w-[500px] object-contain"
-          />
+      <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-white text-center px-4 pt-[25vh]">
+        {/* pt-[25vh] = posunie obsah o 25% výšky obrazovky nadol */}
 
-          {/* 🔹 Spacer – posunie tlačidlo nižšie */}
-          <div className="h-20 md:h-32" />
+        <img
+          src="/images/IKENS copy.svg"
+          alt="Ikens Beauty logo"
+          className="w-80 md:w-[500px] object-contain"
+        />
 
-          {/* 🔹 Tlačidlo */}
-          <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              const element = document.querySelector('#contact');
-              if (element) {
-                const headerOffset = 64;
-                const elementPosition = element.getBoundingClientRect().top;
-                const offsetPosition =
-                  elementPosition + window.pageYOffset - headerOffset;
+        <div className="h-16" />
 
-                window.scrollTo({
-                  top: offsetPosition,
-                  behavior: 'smooth',
-                });
-              }
-            }}
-            className="bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
-          >
-            Rezervovať termín
-          </a>
-        </div>
+        <a
+          href="#contact"
+          onClick={(e) => {
+            e.preventDefault();
+            const element = document.querySelector('#contact');
+            if (element) {
+              const headerOffset = 64;
+              const elementPosition = element.getBoundingClientRect().top;
+              const offsetPosition =
+                elementPosition + window.pageYOffset - headerOffset;
+
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth',
+              });
+            }
+          }}
+          className="bg-transparent border-2 border-white hover:bg-white hover:text-amber-800 text-white px-8 py-3 rounded-full transition-colors duration-300"
+        >
+          Rezervovať termín
+        </a>
       </div>
     </section>
   );
