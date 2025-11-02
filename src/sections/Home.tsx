@@ -26,10 +26,6 @@ export default function Home() {
 
       {/* 🔹 Obsah nad videom */}
       <div className="relative z-20 min-h-screen flex flex-col items-center justify-start text-white text-center px-4 pt-[25vh]">
-        {/* pt-[25vh] = posunie obsah o 25% výšky obrazovky nadol */}
-
-        <div className="h-16" />
-
         <a
           href="#contact"
           onClick={(e) => {
