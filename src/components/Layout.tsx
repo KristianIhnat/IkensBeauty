@@ -80,7 +80,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   />
 
   <div
-    className={`fixed top-0 right-0 h-full w-full bg-white/80  z-50 shadow-lg transform transition-transform duration-700 ease-in-out ${
+    className={`fixed top-0 right-0 h-full w-full bg-white/90  z-50 shadow-lg transform transition-transform duration-700 ease-in-out ${
       isOpen ? 'translate-x-0' : 'translate-x-full'
     }`}
   >
