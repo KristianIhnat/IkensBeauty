@@ -22,7 +22,7 @@ const team = [
     name: 'Beata',
     role: 'Nechtová dizajnérka, Vizážistka',
     bio: 'Volám sa Beata, pochádzam z krásneho Liptovského Mikuláša. 🙂\nNechtovému dizajnu sa venujem už štyri roky – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom.💅🏻\nKreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty!💅🏻',
-    image: '/images/Bea.jpg',
+    image: '/images/img_3715.jpg',
     objectPosition: 'center 30%' // individuálny posun
   }
 ];
