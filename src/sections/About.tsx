@@ -34,9 +34,10 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Toto sme my</h2>
           <p className="text-lg text-black max-w-2xl mx-auto">
-            Ahojte! Toto sme my, úplne obyčajné ženy, presne ako vy, ktoré milujú krásu a eleganciu.
-            Sme tu, aby sme vám s radosťou a v pohodovej atmosfére pomohli vytvoriť nechty, ktoré zvýraznia vašu ženskosť a šarm. Nemusíte sa báť prísť a urobiť si chvíľku len pre seba – my sa o všetko postaráme.🖤
-            Tešíme sa na každú z vás!
+            Volám sa Erika,
+manikúre sa venujem už 11 rokov. Je to moja vášeň, ktorá sa postupne stala aj súčasťou môjho života. Salón Ikens beauty je dnes domovom nielen pre krásne nechty, ale aj pre úžasný tím kolegýň, ktoré zdieľajú moju víziu.
+Verím, že krása je v detailoch, jednoduchosti a v tom, ako sa žena cíti. Mojou prioritou je, aby ste od nás odchádzali nielen s dokonalými nechtami, ale aj s pocitom, že ste si dopriali chvíľu pre seba.
+Vaša dôvera je pre mňa najväčšou motiváciou. Teším sa na každé naše stretnutie – či už u mňa, alebo u dievčat z tímu Ikens Beauty.🤍
           </p>
         </div>
 
