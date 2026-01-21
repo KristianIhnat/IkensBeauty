@@ -16,7 +16,9 @@ Vaša dôvera je pre mňa najväčšou motiváciou. Teším sa na každé naše 
     id: '3',
     name: 'Annamária',
     role: 'Nechtová dizajnérka',
-    bio: 'Volám sa Annamaria, pochádzam z krásneho Liptovského Mikuláša. 🙂\nNechtovému dizajnu sa venujem už štyri roky – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom.💅🏻\nKreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty!💅🏻',
+    bio: `Volám sa Annamaria, pochádzam z krásneho Liptovského Mikuláša. 🙂
+Nechtovému dizajnu sa venujem už 5 rokov – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom. 💅🏻
+Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty! 💅🏻`,
     image: '/images/AnnaMaria.jpg',
     objectPosition: 'center 60%' // individuálny posun
   },
