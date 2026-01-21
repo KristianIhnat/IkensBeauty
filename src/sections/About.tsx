@@ -5,10 +5,10 @@ const team = [
     id: '1',
     name: 'Erika',
     role: 'Nechtová dizajnérka, Vizážistka',
-    bio:`Volám sa Erika,
+    bio: `Volám sa Erika,
 manikúre sa venujem už 11 rokov. Je to moja vášeň, ktorá sa postupne stala aj súčasťou môjho života. Salón Ikens Beauty je dnes domovom nielen pre krásne nechty, ale aj pre úžasný tím kolegýň, ktoré zdieľajú moju víziu.
 Verím, že krása je v detailoch, jednoduchosti a v tom, ako sa žena cíti. Mojou prioritou je, aby ste od nás odchádzali nielen s dokonalými nechtami, ale aj s pocitom, že ste si dopriali chvíľu pre seba.
-Vaša dôvera je pre mňa najväčšou motiváciou. Teším sa na každé naše stretnutie – či už u mňa, alebo u dievčat z tímu Ikens Beauty. 🤍`;
+Vaša dôvera je pre mňa najväčšou motiváciou. Teším sa na každé naše stretnutie – či už u mňa, alebo u dievčat z tímu Ikens Beauty. 🤍`,
     image: '/images/Erika.jpg',
     objectPosition: 'center 25%' // individuálny posun
   },
@@ -18,7 +18,7 @@ Vaša dôvera je pre mňa najväčšou motiváciou. Teším sa na každé naše 
     role: 'Nechtová dizajnérka',
     bio: `Volám sa Annamaria, pochádzam z krásneho Liptovského Mikuláša. 🙂
 Nechtovému dizajnu sa venujem už 5 rokov – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom. 💅🏻
-Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty! 💅🏻`;
+Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty! 💅🏻`,
     image: '/images/AnnaMaria.jpg',
     objectPosition: 'center 60%' // individuálny posun
   },
@@ -26,12 +26,12 @@ Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja pr
     id: '4',
     name: 'Beata',
     role: 'Nechtová dizajnérka, Vizážistka',
-    bio:`Ahojte,
+    bio: `Ahojte,
 volám sa Bea,
 som profesionálna nechtová dizajnérka a makeup artistka s umeleckým vzdelaním.
 Makeupu sa venujem od roku 2015 a nechtom od roku 2016.
 Vždy sa snažím o precíznu prácu, mám cit pre detail a čistý výsledok.
-Verím, že menej je viac a krása spočíva v jednoduchosti.`;
+Verím, že menej je viac a krása spočíva v jednoduchosti.`,
     image: '/images/Beata.jpg',
     objectPosition: 'center 40%' // individuálny posun
   }
