@@ -29,6 +29,7 @@ Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja pr
     bio: `Ahojte,
 volám sa Bea,
 som profesionálna nechtová dizajnérka a makeup artistka s umeleckým vzdelaním.
+
 Makeupu sa venujem od roku 2015 a nechtom od roku 2016.
 Vždy sa snažím o precíznu prácu, mám cit pre detail a čistý výsledok.
 Verím, že menej je viac a krása spočíva v jednoduchosti.`,
