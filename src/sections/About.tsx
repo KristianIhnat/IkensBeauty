@@ -23,7 +23,7 @@ const team = [
     role: 'Nechtová dizajnérka, Vizážistka',
     bio: 'Volám sa Beata, pochádzam z krásneho Liptovského Mikuláša. 🙂\nNechtovému dizajnu sa venujem už štyri roky – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom.💅🏻\nKreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty!💅🏻',
     image: '/images/Beata.jpg',
-    objectPosition: 'center 40%' // individuálny posun
+    objectPosition: 'center 35%' // individuálny posun
   }
 ];
 
@@ -49,11 +49,11 @@ export default function About() {
                 className="bg-white/90 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:-translate-y-2 flex flex-col"
               >
                 {/* Obrázok s individuálnym posunom */}
-                <div className="w-full overflow-hidden aspect-[4/3] md:aspect-[3/2] lg:aspect-[4/3]">
+                <div className="w-full overflow-hidden aspect-[3/4] md:aspect-[2/3]">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     style={{ objectPosition: member.objectPosition }}
                   />
                 </div>
