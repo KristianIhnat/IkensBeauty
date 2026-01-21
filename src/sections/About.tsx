@@ -33,7 +33,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Toto sme my</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-black max-w-2xl mx-auto">
             Ahojte! Toto sme my, úplne obyčajné ženy, presne ako vy, ktoré milujú krásu a eleganciu.
             Sme tu, aby sme vám s radosťou a v pohodovej atmosfére pomohli vytvoriť nechty, ktoré zvýraznia vašu ženskosť a šarm. Nemusíte sa báť prísť a urobiť si chvíľku len pre seba – my sa o všetko postaráme.🖤
             Tešíme sa na každú z vás!
