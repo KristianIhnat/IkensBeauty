@@ -58,13 +58,19 @@ export default function About() {
                   />
                 </div>
 
-                <div className="p-6 flex-1 flex flex-col">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">
-                    {member.name}
-                  </h4>
-                  <p className="text-amber-800 mb-4">{member.role}</p>
-                  <p className="text-gray-600 whitespace-pre-line mt-auto">{member.bio}</p>
-                </div>
+                <div className="p-6 flex flex-col min-h-[420px]">
+  <h4 className="text-xl font-semibold text-gray-900 mb-2">
+    {member.name}
+  </h4>
+
+  <p className="text-amber-800 mb-4">
+    {member.role}
+  </p>
+
+  <p className="text-gray-600 whitespace-pre-line">
+    {member.bio}
+  </p>
+</div>
               </div>
             ))}
           </div>
