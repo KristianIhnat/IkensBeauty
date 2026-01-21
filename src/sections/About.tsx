@@ -26,7 +26,12 @@ Kreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja pr
     id: '4',
     name: 'Beata',
     role: 'Nechtová dizajnérka, Vizážistka',
-    bio: 'Volám sa Beata, pochádzam z krásneho Liptovského Mikuláša. 🙂\nNechtovému dizajnu sa venujem už štyri roky – a stále ma to baví viac a viac! Rada skúšam nové štýly, hrám sa s farbami, vzormi či rôznymi technikami, takže každý necht je pre mňa malým umeleckým dielom.💅🏻\nKreativita je pre mňa kľúčom, preto sa u mňa nikdy nebudete nudiť. Moja práca je miestom, kde sa fantázia stáva skutočnosťou. Som veľmi pozitívna a usmiata, takže vám vždy prinesiem dobrú náladu a krásne nechty!💅🏻',
+    bio: `Ahojte,
+volám sa Bea,
+som profesionálna nechtová dizajnérka a makeup artistka s umeleckým vzdelaním.
+Makeupu sa venujem od roku 2015 a nechtom od roku 2016.
+Vždy sa snažím o precíznu prácu, mám cit pre detail a čistý výsledok.
+Verím, že menej je viac a krása spočíva v jednoduchosti.`,
     image: '/images/Beata.jpg',
     objectPosition: 'center 40%' // individuálny posun
   }
