@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="/videos/finalSirka.mp4"
+          src="/videos/FinalSirka.mp4"
           autoPlay
           loop
           muted
