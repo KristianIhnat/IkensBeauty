@@ -24,6 +24,24 @@
   background-repeat: no-repeat;
 }
 
+/* Ensure reusable backgrounds stay fixed across breakpoints */
+.bg-parallax {
+  background-attachment: fixed;
+}
+
+
+.header-animated-bg {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+  background-repeat: no-repeat;
+  background-size: 100% 0%;
+  background-position: top;
+  transition: background-size 0.7s ease-out;
+}
+
+.header-animated-bg--active {
+  background-size: 100% 100%;
+}
+
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Holgada', sans-serif;

@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from './components/Layout';
 import Home from './sections/Home';
 import About from './sections/About';
@@ -11,7 +10,7 @@ export default function App() {
       <Layout>
         <Home />
         <div 
-          className="bg-cover bg-center bg-no-repeat bg-fixed"
+          className="bg-cover bg-center bg-no-repeat bg-parallax"
           style={{ backgroundImage: 'url(/images/BackGround.jpg)' }}
         >
           <About />
