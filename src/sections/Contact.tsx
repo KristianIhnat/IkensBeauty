@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Phone, Clock } from 'lucide-react';
 
 export default function Contact() {
@@ -32,7 +31,12 @@ export default function Contact() {
                 <Phone className="w-6 h-6 text-amber-800 mt-1 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium text-gray-900">Telefón</h4>
-                  <p className="text-gray-600">0902 543 279</p>
+                  <a
+                    href="tel:+421902543279"
+                    className="text-gray-600 hover:text-amber-800 transition-colors duration-200"
+                  >
+                    0902 543 279
+                  </a>
                 </div>
               </div>
               <div className="flex items-start">

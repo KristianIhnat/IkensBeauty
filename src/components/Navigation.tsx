@@ -36,17 +36,17 @@ export default function Navigation({ mobile, setIsOpen }: NavigationProps) {
   };
 
   return (
-    <nav className={`${mobile ? 'flex flex-col space-y-6' : 'flex space-x-8'} items-center`}>
+    <nav className={`${mobile ? 'flex flex-col space-y-6' : 'flex space-x-4'} items-center`}>
       {links.map((link) => (
         <a
           key={link.href}
           href={link.href}
           onClick={handleClick}
-          className={`transition-colors duration-200 ${
+          className={`inline-flex items-center justify-center rounded-full font-semibold transition-colors duration-200 ${
             mobile
-              ? 'block px-6 py-3 rounded-md text-2xl font-medium text-center'
-              : 'text-sm font-medium'
-          } text-gray-700 hover:text-amber-800`}
+              ? 'text-2xl px-8 py-3 text-gray-900'
+              : 'text-base px-5 py-2 text-gray-800 hover:text-amber-800'
+          }`}
         >
           {link.label}
         </a>
@@ -55,11 +55,11 @@ export default function Navigation({ mobile, setIsOpen }: NavigationProps) {
         href="https://www.instagram.com/ikensbeauty"
         target="_blank"
         rel="noopener noreferrer"
-        className={`transition-colors duration-200 flex items-center ${
+        className={`inline-flex items-center justify-center rounded-full font-semibold transition-colors duration-200 ${
           mobile
-            ? 'px-6 py-3 rounded-md text-2xl font-medium'
-            : 'text-sm font-medium'
-        } text-[#E1306C] hover:text-[#E1306C]`}
+            ? 'text-2xl px-8 py-3 text-[#E1306C]'
+            : 'text-base px-5 py-2 text-[#E1306C] hover:text-[#E1306C]'
+        }`}
       >
         <Instagram className={`${mobile ? 'w-8 h-8' : 'w-5 h-5'} mr-2`} />
         <span>Instagram</span>
